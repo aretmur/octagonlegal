@@ -116,7 +116,7 @@ export default function PracticeAreas() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {practiceAreas.slice(3).map((area, index) => (
-            <Card key={index + 3} className="bg-white shadow-sm hover:shadow-lg transition-shadow h-[520px]">
+            <Card key={index + 3} className="bg-white shadow-sm hover:shadow-lg transition-shadow h-[420px]">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="text-center mb-4">
                   <div className="inline-flex items-center justify-center w-14 h-14 bg-navy rounded-full mb-3">
@@ -126,7 +126,7 @@ export default function PracticeAreas() {
                   <p className={`text-sm whitespace-pre-line ${area.title.includes('Crisis Intervention') ? 'text-red-600 font-bold' : 'text-gray-600 italic'}`}>{area.subtitle}</p>
                 </div>
                 
-                <div className="flex-1">
+                <div className="flex-1 overflow-hidden">
                   <h4 className="font-semibold text-navy mb-2">Core Services:</h4>
                   <ul className="space-y-1 text-gray-600 text-sm">
                     {area.services.map((service, serviceIndex) => (
