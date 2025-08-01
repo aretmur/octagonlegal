@@ -57,8 +57,7 @@ const practiceAreas = [
       "Whistleblower protections",
       "Policy review + legal health checks",
       "Internal dispute resolution",
-      "Executive-level conduct advice",
-      "Discreet legal handling of HR blow-ups"
+      "Executive-level conduct advice"
     ]
   },
   {
@@ -69,9 +68,9 @@ const practiceAreas = [
       "PSC interviews, allegations & disciplinary hearings",
       "Suspensions, stand-downs & show cause responses",
       "Strategic resignation or payout negotiations",
-      "Representation during systemic reviews or cultural inquiries",
-      "Support for members under media or political scrutiny",
-      "Legal navigation of WorkCover or mental health-based exits"
+      "Representation during systemic reviews",
+      "Support for members under media scrutiny",
+      "Legal navigation of WorkCover or mental health exits"
     ]
   }
 ];
