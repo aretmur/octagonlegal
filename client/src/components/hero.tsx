@@ -60,7 +60,7 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/api/video/lawyers-background.mp4" type="video/mp4" />
+          <source src="/videos/lawyers-background.mp4" type="video/mp4" />
           {/* Fallback background if video doesn't load */}
         </video>
         {/* Dark overlay for better text readability */}
